@@ -1,0 +1,12 @@
+{
+  "name": "atividade-pizzaria-nodejs",
+  "version": "1.0.0",
+  "description": "API Pizzaria desenvolvida como atividade do programa de desenvolvimento Full stack ília-iTalents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
