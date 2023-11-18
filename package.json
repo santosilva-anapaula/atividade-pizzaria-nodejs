@@ -4,7 +4,9 @@
   "description": "API Pizzaria desenvolvida como atividade do programa de desenvolvimento Full stack ília-iTalents",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "keywords": [],
   "author": "",
