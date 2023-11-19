@@ -61,7 +61,7 @@ const addUserPizzaFavService = (id, pizza) => {
         },
         {
             $push: {
-                pizza_fav:{
+                pizzas_fav:{
                     _id: pizza._id,
                 }
             }
@@ -79,7 +79,7 @@ const deleteUserPizzaFavService = (id, pizza) => {
         },
         {
             $pull: {
-                pizza_fav:{
+                pizzas_fav:{
                     _id: pizza._id,
                 }
             }
