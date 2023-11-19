@@ -7,6 +7,6 @@ const SaborSchema = new mongoose.Schema({
     createAt: { type: Date, required: true, default: Date.now() },
 });
 
-const Sabor = mongoose.model("categorias", SaborSchema);
+const Sabor = mongoose.model("sabores", SaborSchema);
 
 module.exports = Sabor;
