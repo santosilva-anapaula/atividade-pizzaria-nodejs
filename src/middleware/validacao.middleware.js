@@ -187,7 +187,7 @@ const validaLogin = (req, res, next) => {
 const validaPizzasCarrinhoPedido = (req, res, next) => {
     let erros = [];
 
-    req.body.pizza.map((value, key) => {
+    req.body.pizzas.map((value, key) => {
         if(!value._id){
             erros.push(`'${key+1} - _id'`);
         }
