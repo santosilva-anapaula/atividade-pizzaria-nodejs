@@ -42,12 +42,12 @@ Código desenvolvido em JavaScript e banco de dados MongoDB, com padrão de proj
 
 | Código | Descrição                                                                                                                                                                                                            |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 200     | Indica que a requisição foi executada com sucesso. Não há problemas ou erros, e o servidor retornou os dados solicitados conforme esperado.                                                                        |
-| 201     | Informa que a informação foi cadastrada com sucesso. Geralmente utilizado após uma requisição de criação de recurso, indicando que o recurso foi criado com êxito.                                             |
-| 400     | Sinaliza que a requisição feita é inválida. Isso pode ocorrer devido a parâmetros ausentes, valores inválidos ou outros problemas na requisição.                                                               |
-| 401     | Aponta para um erro de autenticação. Indica que o usuário não foi autenticado corretamente ou que o token de autenticação fornecido é inválido.                                                                |
-| 404     | Denota que o registro solicitado não foi encontrado no servidor. Isso pode ocorrer quando os dados fornecidos na requisição não corresponde a nenhum registro existente.                                           |
-| 500     | Refere-se a um erro interno no servidor. Este código é geralmente usado quando ocorre um problema não previsto no servidor durante o processamento da requisição. Indica que algo deu errado no lado do servidor. |
+| `200`     | Indica que a requisição foi executada com sucesso. Não há problemas ou erros, e o servidor retornou os dados solicitados conforme esperado.                                                                        |
+| `201`     | Informa que a informação foi cadastrada com sucesso. Geralmente utilizado após uma requisição de criação de recurso, indicando que o recurso foi criado com êxito.                                             |
+| `400`     | Sinaliza que a requisição feita é inválida. Isso pode ocorrer devido a parâmetros ausentes, valores inválidos ou outros problemas na requisição.                                                               |
+| `401`     | Aponta para um erro de autenticação. Indica que o usuário não foi autenticado corretamente ou que o token de autenticação fornecido é inválido.                                                                |
+| `404`     | Denota que o registro solicitado não foi encontrado no servidor. Isso pode ocorrer quando os dados fornecidos na requisição não corresponde a nenhum registro existente.                                           |
+| `500`     | Refere-se a um erro interno no servidor. Este código é geralmente usado quando ocorre um problema não previsto no servidor durante o processamento da requisição. Indica que algo deu errado no lado do servidor. |
 
 ### Models
 
