@@ -6,7 +6,7 @@ const PizzaSchema = new mongoose.Schema({
     precoUnitario: { type: Number, required: true },
     imagem: { type: String, required: true },
     sabor:{
-        _id: { type: mongoose.Schema.Types.ObjectId, required: true, ref: "sabores" }
+        _id: { type: mongoose.Schema.Types.ObjectId, unique: true, required: true, ref: "sabores" }
     }
 });
 
