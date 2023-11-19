@@ -7,7 +7,8 @@ const PizzaSchema = new mongoose.Schema({
     imagem: { type: String, required: true },
     sabor:{
         _id: { type: mongoose.Schema.Types.ObjectId, unique: true, required: true, ref: "sabores" }
-    }
+    },
+    createdAt: { type: Date, required: true, default: Date.now() }
 });
 
 const Pizza = mongoose.model("pizzas", PizzaSchema);
