@@ -51,30 +51,10 @@ const deletePizzaController = async (req, res) => {
     }
 };
 
-const addSaborPizzaController = async (req, res) => {
-    try {
-        res.status(200).send(await pizzaService.addSaborPizzaService(req.params.id, req.body));
-    } catch (err) {
-        console.log(`erro:${err.message}`);
-        return res.status(500).send({ message: `Erro inesperado, tente novamente!`});
-    }
-};
-
-const deleteSaborPizzaController = async (req, res) => {
-    try {
-        res.status(200).send(await pizzaService.deleteSaborPizzaService(req.params.id, req.body));
-    } catch (err) {
-        console.log(`erro:${err.message}`);
-        return res.status(500).send({ message: `Erro inesperado, tente novamente!`});
-    }
-};
-
 module.exports = {
     findPizzaByIdController,
     findAllPizzaController,
     createPizzaController,
     updatePizzaController,
-    deletePizzaController,
-    addSaborPizzaController,
-    deleteSaborPizzaController
+    deletePizzaController
 }
