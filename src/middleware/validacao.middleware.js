@@ -79,7 +79,7 @@ const validaSabor= (req, res, next) => {
     if(!req.body.nome){
         erros.push("nome");
     }
-    if(!req.body.tamanho){
+    if(!req.body.ingredientes){
         erros.push("ingredientes");
     }
     if(!req.body.tipo){
